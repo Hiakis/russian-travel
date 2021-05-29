@@ -1,7 +1,7 @@
 .place {
   padding: 80px 100px 0;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: auto;
   gap: 48px 40px;
   grid-template-areas:
   "title website"
@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     padding: 73px 0 0;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: auto;
     column-gap: 32px;
   }
 
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 340px 352px;
+    grid-template-columns: auto;
     column-gap: 28px;
   }
 

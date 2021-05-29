@@ -1,8 +1,8 @@
 .cover {
-  margin-top: 92px;
-  width: 100vw;
+  margin: 92px 48px;
   height: 62.5vw;
-  background-size: 1184px 740px;
+  background-size: contain;
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
   max-width: 1184px;
@@ -29,25 +29,9 @@
   opacity: 0.8;
 }
 
-
 @media screen and (max-width: 1024px) {
   .cover {
-    background-size: 100vw 62.5vw;
-    left: -48px;
+    margin: 92px 0 0;
+    background-size: cover;
   }
-
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    background-size: 100vw 62.5vw;
-    left: -24px;
-  }
-
-}@media screen and (max-width: 320px) {
-  .cover {
-    background-size: 100vw 62.5vw;
-    left: -16px;
-  }
-
 }
