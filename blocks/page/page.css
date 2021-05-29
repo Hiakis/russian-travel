@@ -1,0 +1,35 @@
+.page {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 288px;
+  max-width: 1184px;
+  background: #2A2C2F;
+  margin: 0 auto;
+}
+
+/*Не уверен можно ли так делать, но как понимаю, эта работа нацелена на самостоятельное
+выполнение так что надеюсь что всю ее переделывать не придётся)))*/
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 928px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 720px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 288px;
+  }
+
+}

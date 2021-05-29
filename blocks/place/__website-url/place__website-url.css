@@ -1,0 +1,16 @@
+.place__website-url {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 0.2em;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place__website-url {
+    line-height: 100%;
+  }
+
+}
