@@ -8,6 +8,7 @@
   .lead__image {
     left: -24px;
     height: 62.5vw;
+    width: auto;
   }
 
 }
