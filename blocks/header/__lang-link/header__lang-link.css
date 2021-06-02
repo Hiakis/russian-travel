@@ -6,16 +6,15 @@
   line-height: 28px;
   margin-bottom: 8px;
   padding-right: 18px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .header__lang-link:last-child {
   padding-right: 0;
-  text-decoration: none;
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

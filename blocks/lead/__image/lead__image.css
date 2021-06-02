@@ -3,20 +3,3 @@
   height: 62.5%;
   position: relative;
 }
-
-@media screen and (max-width: 768px) {
-  .lead__image {
-    left: -24px;
-    height: 62.5vw;
-    width: auto;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  .lead__image {
-    left: -16px;
-    height: 62.5vw;
-  }
-
-}

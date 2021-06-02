@@ -4,7 +4,8 @@
   -moz-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 288px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  min-width: 320px;
   max-width: 1184px;
   background: #2A2C2F;
   margin: 0 auto;
@@ -12,7 +13,7 @@
 
 /*Не уверен можно ли так делать, но как понимаю, эта работа нацелена на самостоятельное
 выполнение так что надеюсь что всю ее переделывать не придётся)))*/
-
+/*
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 928px;
@@ -33,3 +34,7 @@
   }
 
 }
+
+Не смог сообразить как все таки это можно реализовать, так как изображение у меня не может выйти за приделы блока page
+где это необходимо =(
+ */
